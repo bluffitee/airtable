@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+   <style media="screen">
+      div {
+         width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="company">
+      {{#each data}}
+         {{#each this as |value key|}}
+            <p>{{key}}: {{value}}</p>
+         {{/each}}
+         <hr>
+      {{/each}}
+   </div>
+   <!-- <script src="./app.js" charset="utf-8"></script> -->
+</body>
+
+</html>
