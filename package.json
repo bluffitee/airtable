@@ -5,6 +5,7 @@
 	"main": "responsive.js",
 	"scripts": {
 		"start": "node responsive.js",
+		"build": "node responsive.js",
 		"dev": "nodemon responsive.js"
 	},
 	"keywords": [
